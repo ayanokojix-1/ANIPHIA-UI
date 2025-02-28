@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'; // React 18+ syntax
-import './index.css'; // If you're using any global styles
+import './styles.css'
 import App from './App'; // Import the main App component
 
 // Create the root element where the app will be injected
