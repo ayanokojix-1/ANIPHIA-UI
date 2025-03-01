@@ -1,14 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client'; // React 18+ syntax
+import { StrictMode } from 'react'  
+import { createRoot } from 'react-dom/client'  
 import './styles.css'
-import App from './App'; // Import the main App component
-
-// Create the root element where the app will be injected
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-// Render the App component inside the root element
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+import App from './App.jsx'  
+  
+  createRoot(document.getElementById('root')).render(  
+    <StrictMode>  
+        <App />  
+          </StrictMode>,  
+          )  
