@@ -11,7 +11,7 @@ export default defineConfig({
   server:{
     host:true,
     port:5000,
-allowedHosts:['e914c37d-598d-45cb-a780-e7de4ba1e7b5-00-1cm4fz6vvt5az.janeway.replit.dev']
+allowedHosts:['e914c37d-598d-45cb-a780-e7de4ba1e7b5-00-1cm4fz6vvt5az.janeway.replit.dev', "aniphia-ui.onrender.com"]
 
   }
     })
