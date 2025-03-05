@@ -60,7 +60,7 @@ function Navbar() {
                         <button onClick={toggleSidebar} className="text-xl">×</button>
                     </div>
                     <div className="p-4 space-y-4">
-                        {["Events", "Login", "Sign Up", "Download App"].map((item) => (
+                        {["Events", "Login", "Sign Up", "Download App(not yet)"].map((item) => (
                             <a
                                 key={item}
                                 href={`/${item.toLowerCase().replace(" ", "")}`}
